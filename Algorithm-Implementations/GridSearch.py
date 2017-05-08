@@ -7,7 +7,7 @@ def checkGrid(G,P,R,C,r,c):
     for i in range(R):
         for j in range(C):
             valid = True
-            if G[i][j] == P[0][0] and j+c < C and i+r < R:
+            if G[i][j] == P[0][0] and j+c-1 < C and i+r-1 < R:
                 for y in range(r):
                     for x in range(c):
                         if P[y][x] != G[i+y][j+x]:
