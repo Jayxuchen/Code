@@ -4,7 +4,7 @@ def search(G,v,count):
     global visited
     i = v[0]
     j = v[1]
-    tot=count
+    tot=0
     neighbors=[[i-1,j-1],[i-1,j],[i-1,j+1],[i,j-1],[i,j+1],[i+1,j-1],[i+1,j],[i+1,j+1]]
     visited.append(v)
     # print visited
@@ -12,7 +12,7 @@ def search(G,v,count):
         if not checkVisited(neighbor) and isValid(neighbor,len(G),len(G[0])) and G[neighbor[0]][neighbor[1]]==1:
             # print "recurse at: " + str(neighbor[0])+"," + str(neighbor[1])
             tot = search(G,neighbor,count+1)
-    return tot
+    return tot+1
 
 def isValid(v,r,c):
     if v[0] < r and v[0] >=0 and v[1] <c and v[1] >=0:
@@ -34,9 +34,8 @@ def get_biggest_region(grid):
     for r in range(len(grid)):
         for c in range(len(grid[0])):
             v=[r,c]
-            # print v
             if not checkVisited(v) and grid[r][c]==1:
-                temp = search(grid,v,1)
+                temp = search(grid,v,0)
                 # print temp
                 if temp > tmax:
                     tmax = temp
