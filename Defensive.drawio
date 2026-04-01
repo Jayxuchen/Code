@@ -160,6 +160,12 @@
         <mxCell id="4TEBlNzp7k6G9WIPGbJ8-62" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;S/Opp blocks body, MB does not close&lt;/span&gt;" vertex="1">
           <mxGeometry height="40" width="330" x="540" y="-715" as="geometry" />
         </mxCell>
+        <mxCell id="b-L37egDPFuTjQvQAJki-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Blocking Cross&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="140" x="550" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="b-L37egDPFuTjQvQAJki-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Blocking Line&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="130" x="1420" y="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
